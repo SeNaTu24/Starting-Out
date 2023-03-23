@@ -1,0 +1,91 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   color: #000000;
+}
+
+.banner {
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./BG.jpg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+
+.banner p {
+   color: #120101;
+   width: 70%;
+}
+
+hr {
+   width: 10%;
+   background-color: rgb(43, 43, 46);
+   height: 5px;
+   border: 1px solid;
+}
+
+.intro {
+   margin: 20px;
+}
+
+.role,
+.div,
+.me {
+   margin: 20px;
+}
+
+.button {
+   margin: 20px;
+   width: 200px;
+   border-radius: 20px;
+   padding: 15px 0;
+   text-align: center;
+   background: transparent;
+}
+
+.button:hover {
+   border: 1px solid rgb(0, 47, 255);
+   box-shadow: -5px -5px 5px rgba(0, 47, 255, 0.55);
+   cursor: pointer;
+}
+
+.content {
+   display: flex;
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+}
+
+.bio {
+   display: inline-block;
+   margin: auto;
+   line-height: 19px;
+   padding: 35px 0;
+   font-size: large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+   width: 200px;
+   border-radius: 100%;
+   background: transparent;
+   margin: auto;
+   padding: 35px 0;
+   /* margin-right: 5; */
+}
+
+.logos {
+   width: 100%;
+   display: inline-block;
+   margin: auto;
+   padding: 10px 0;
+}
+
+#fb,
+#twit,
+#lin {
+   width: 50px;
+   margin: 10px;
+   padding: 1px 5px;
+}
