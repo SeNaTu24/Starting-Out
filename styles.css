@@ -8,9 +8,11 @@
 .banner {
    width: 100%;
    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./BG.jpg);
-   height: 100vh;
-   background-position: center;
+   min-height: 100vh;
+   background-position: center center;
    background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 .banner p {
@@ -100,6 +102,11 @@ img {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+   .banner {
+      background-attachment: scroll;
+      min-height: 100vh;
+   }
+   
    .content {
       flex-direction: column;
       text-align: center;
